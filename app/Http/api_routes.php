@@ -1,5 +1,10 @@
 <?php
 
+$router->get('hello', function () {
+    return 'hello';
+//    return Response::json('hello');
+});
+
 /*
  * 申请 access_token 或者刷新 access_token.
  */
